@@ -21,3 +21,9 @@ action "script executat des de github"
 action "UPDATE DISTRO"
 apt update && apt upgrade -y
 
+action "INSTALL CURL"
+apt install curl -y
+
+action "INSTALL SUDO"
+apt install sudo -y
+
