@@ -25,14 +25,7 @@ then
     #errada, necessitam al manco un paràmetre
     usage
 fi
-# Afegir tots els paràmetres dins una variable i mostrar-la per pantalla.
-TOTS_ELS_PARAMETRES=${*}
-echo "TOTS ELS PARÀMETRES: ${TOTS_ELS_PARAMETRES}"
-# DESPLAÇAR ELS PARÀMeTRES A L'ESQUERRA
-# shift
-# #TORNAR A MOSTRAR TOTS ELS PARÀMETRES
-# TOTS_ELS_PARAMETRES=${*}
-# echo "TOTS ELS PARÀMETRES: ${TOTS_ELS_PARAMETRES}"
+
 # Generau un password per cada un dels usuaris passats com a paràmetres.
 # for és un bucle, que s'executa per cada element de ${@}
 for USER_NAME in ${@}
