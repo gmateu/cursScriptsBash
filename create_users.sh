@@ -5,6 +5,8 @@ function usage(){
     exit 1
 }
 
+#COMPROVAR QUE SOU ROOT
+
 # El nom del script que s'executa
 echo "${0}"
 # El PATH i el filename del script
