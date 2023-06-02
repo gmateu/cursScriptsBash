@@ -16,7 +16,6 @@ echo "${0}"
 echo "direcori: $(dirname ${0}) fitxer: $(basename ${0})"
 # El número de paràmetres
 NUMERO_PARAMETRES=${#}
-echo "NUMERO DE PARAMETRES: ${NUMERO_PARAMETRES}"
 # Si el número de paràmetres és igual zero ha de sortir (exit 1),
 #indicant que el primer paràmetre és obligatori i que rebrà de nom USER_NAME, 
 #i que pot rebre paràmetres opcionals que també seran noms d'usuaris.
