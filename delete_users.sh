@@ -27,7 +27,7 @@ for USER_NAME in ${@}
 do
     #ENTRAREM DINS AQUEST BLOC, TANTES VEGADES COM PARÀMETRES POSEM AL SCRIPT
     #ELIMINAR  L'USUARI amb el HOME 
-        
+    deluser --remove-home ${USER_NAME}    
     #COMPROVAM SI HA HAGUT ALGUNA ERRADA
     if [[ ${?} -ne 0 ]]
     then
